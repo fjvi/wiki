@@ -141,8 +141,10 @@
   </div>
   <h1>Updates</h1>
   <div style="display: none">
-    <a href="javascript:(function(){document.body.setAttribute('contenteditable', 'true');document.onkeydown = function (e) {e = e || window.event;if(e.keyCode === 27){document.body.setAttribute('contenteditable', 'false');const html = document.documentElement.outerHTML;const blob = new Blob([html], {type: 'text/html'});const link = document.createElement('a');link.href = URL.createObjectURL(blob);link.download = 'Bookmarks.html';link.click();;}}		})();" //编辑后按 【Esc】 自动下载文件 base target="_self">✏️ 编辑书签</a>
-    <a href="https://github.com/fjvi/wiki/edit/main/sheji.html">💾 保存到GitHub</a></div>
+    <a href="javascript:(function(){document.body.setAttribute('contenteditable', 'true');document.onkeydown = function (e) {e = e || window.event;if(e.keyCode === 27){document.body.setAttribute('contenteditable', 'false');const html = document.documentElement.outerHTML;const blob = new Blob([html], {type: 'text/html'});const link = document.createElement('a');link.href = URL.createObjectURL(blob);link.download = 'sheji.html';link.click();;}}		})();" //编辑后按 【Esc】 自动下载文件 base target="_self">✏️ 本页编辑</a>
+    <a href="https://github.com/fjvi/wiki/edit/main/sheji.html">💾 在线编辑</a>
+    <a href="https://github.com/fjvi/wiki/upload/main">💾 上传文件</a>
+	</div>
   <div id="linkEditor" style="display:none; position:fixed; top:30%; left:50%; transform:translateX(-50%);
   background:#fff; padding:20px; border:1px solid #ccc; box-shadow:0 0 10px rgba(0,0,0,0.3); z-index:3000;">
     <h3>编辑超链接</h3>
